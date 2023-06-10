@@ -1,0 +1,144 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.section-one{
+    background-color: #E8E3DD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.section-one .img1 {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+}
+
+.section-one .text1 {
+    display: flex;
+    flex: 50%;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.text1 p {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+@media only screen and (max-width: 700px) {
+    .section-one {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .section-one .img1 {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        
+    }
+
+    .section-one .img1 img {
+        max-width: 100%;
+    }
+
+    
+
+    .text1 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 25px;
+        background-color: black;
+        color: white;
+        height: 100%;
+    }
+}
+
+
+.section-two {
+    width: 100%;
+    display: flex;
+    background-color: #DEDCDD;
+}
+
+.section-two .text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.section-two .text2 p {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    
+}
+
+.section-two .img2 img{
+    aspect-ratio: 5/4;
+    width: 50vw;
+    height: 45vh;
+}
+
+.section-two .img2 {
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .section-two {
+        display:flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .section-two .img2{
+        display: flex;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    .section-two .img2 img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .section-two .text2 {
+        background-color: black;
+        color: white;
+        padding-right: 25px;
+    }
+
+    .section-two .button{
+        padding-bottom: 20px;
+    }
+
+    .section-two .button button {
+        color: black;
+        background-color: #DEDCDD;
+    }
+}
+
+.section-two .button {
+    margin-top: 50px;
+}
+
+.section-two button {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}

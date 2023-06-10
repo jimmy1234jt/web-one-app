@@ -1,0 +1,37 @@
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aboutImg {
+    width: 100%;
+}
+
+.aboutImg img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutText h1 {
+    font-size: xx-large;
+}
+
+.aboutText p {
+    width: 70%;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    
+}
+
+@media only screen and (max-width: 650) {
+    
+}

@@ -1,0 +1,36 @@
+.sidebar {
+    display: flex;
+    justify-content: flex-end;
+    flex: 500px;
+    height: auto;
+
+}
+
+.sideMenu {
+    display: flex;
+    background-color: black;
+    width: 400px;
+    height: 50vh;
+    padding-bottom: 20vh;
+}
+
+.sideItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+
+.sideItems a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.sideItems input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}

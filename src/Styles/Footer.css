@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top:2px solid white;
+}
+
+.footer .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    flex-wrap: wrap;
+}
+
+.social svg:hover {
+    color: aqua;
+}
+
+.social svg {
+    margin: 50px;
+}
+
+.footer .text {
+    color: white;
+    margin: 20px;
+}

@@ -1,0 +1,134 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #BBBBBB;
+}
+
+.leftSide {
+    flex: 50%;
+}
+
+.contact .rightSide {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+.contact .rightSide h1 {
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+form .fullNames {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullNames .First {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    padding: 10px;
+}
+
+.fullNames .Last {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    padding: 10px;
+}
+.fullNames .First input {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.fullNames .Last input {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.fullNames #firstName {
+    flex: 50%;
+}
+
+.fullNames #lastName {
+    flex: 50%;
+}
+
+form .email {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+form .message {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+form button {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form .btn {
+    padding: 10px;
+}
+
+form input {
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+form .message textarea {
+    margin-top: 15px;
+    height: 70px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+form .message {
+    width: 80%;
+}
+
+form input:focus, textarea:focus {
+    outline: none;
+}
+
+form label {
+    color: black;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:1000px) {
+    form .fullNames {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .leftSide{
+        display: none;
+    }
+}
